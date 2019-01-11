@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageTypeApp.Pages.Carousel.ContentCarousel3Page"
+             BackgroundColor="LightSkyBlue">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" >
+
+            <Label Text="Tipo de Página"
+                   TextColor="Blue"
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Button Image="play.png" 
+                    BackgroundColor="Transparent" 
+                    Clicked="OnChangePage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
